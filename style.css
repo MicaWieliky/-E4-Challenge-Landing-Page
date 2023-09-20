@@ -192,7 +192,7 @@ main {
 width: 100%;
 margin:15px; 
 border-radius: 10px;
-overflow: hidden;
+
 background:#e099c0;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2) ;
 transition:all 400ms ease;
@@ -249,9 +249,9 @@ footer {
   background-color: #a063a0;
   display: flex;
   justify-content: center;
-   width: 100%;
+   width:200%;
   padding: 70px 50px 30px;
-  line-height: 80px;
+  line-height: 100px;
   font-family: 'Helvetica', sans-serif;
   
 
@@ -295,7 +295,7 @@ width: 40px;
 
 /* RESPONSIVE*/
 
-@media (max-width: 992px){
+@media (max-width: 800px){
 
 
   .hero-presentation h1 {
@@ -350,7 +350,7 @@ width: 40px;
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 576px) {
   
   .navbar ul {
     background-color: #410a35;
