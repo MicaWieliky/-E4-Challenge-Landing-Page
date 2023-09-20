@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddacdd;
+    font-family: 'Helvetica', sans-serif;
+    
+}
+/* Header*/
+
+.header {
+    height: 100px;
+    width: 100%;
+    padding: 0px 50px;
+    background-color: #a063a0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #a063a0;
+    z-index: 1;
+}
+
+.header img {
+    height: 100%;
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar i{
+  font-size: 36px;
+  display:none ;
+
+}
+#toggle-menu{
+  display: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color:#ddacdd;
+    border-bottom: 2px solid ;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero*/
+
+#hero{
+  margin-top: 100px;
+    display: flex;
+    padding: 70px 0px;
+    width:  90%;
+    justify-content: space-around;
+}
+
+.hero-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.hero-presentation h1 {
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #6d1061;
+}
+
+.hero-presentation p {
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 600px;
+    color: rgb(177, 78, 172);
+    
+}
+
+.button-conteiner {
+    display: flex;
+    gap: 15px;
+}
+
+.button-conteiner a {
+    text-decoration: none;
+    border: 3px black;
+    border-radius: 20px;
+    padding:  8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.boton-1 {
+    flex-basis: 30%;
+    background-color: #a063a0;	
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #e2b6d1;
+    font-size: 30px;
+
+    }
+
+.boton-2 {
+    flex-basis: 30%;
+    background-color: #d678ac;	
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+.hero-img {
+    width: 475px;
+    box-shadow: 5px 5px 5px 3px #72526d;
+}
+
+.line{
+ 
+    width: 70%;
+    height: 5px;
+    background-color:#d678ac;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-color: #c77bc7;  
+    }
+
+/*about*/
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 850px;
+
+}
+#about{
+    text-align: center;
+    color:#752257;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+      line-height: 1.5
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+
+}
+.benefits {
+    bottom: 1000px;
+    display:flex;
+    justify-content: space-around;
+    max-width: 1000px;    }
+
+.benefit-card { 
+width: 100%;
+margin:15px; 
+border-radius: 10px;
+overflow: hidden;
+background:#e099c0;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2) ;
+transition:all 400ms ease;
+justify-content: center;
+
+
+}
+.benefit-card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4)
+}
+
+.benefit-card img {
+  width: 100%;
+  height: 210px;
+  position:sticky;
+  
+}
+.benefit-card { 
+  padding: 15px;
+  text-align: center;
+}
+.benefit-card p {
+  line-height: 1.5;
+  color: #963f76;
+  }
+.benefit-card h3 { 
+  font-weight: 400;
+  margin-bottom: 15px
+}
+
+.benefit-card a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color:#752257;
+  border: 1px solid #410a35;
+  border-radius: 4px;
+}
+.benefit-card a:hover{
+  background-color:#a063a0;
+  color: #ecd6e4;
+}
+
+/* FOOTER*/
+
+footer {
+
+  display: flex;
+
+}
+          
+.container-footer {
+  background-color: #a063a0;
+  display: flex;
+  justify-content: space-around;
+   width: 100%;
+  padding: 70px 50px 30px;
+  line-height: 80px;
+  font-family: 'Helvetica', sans-serif;
+  
+
+}
+          
+.info-container-footer {
+display: flex;
+flex-direction: row;
+gap: 100px;
+line-height: 40px;
+color:#410a35 ;
+}
+.container-footer img {
+height: 250px;
+width: 250px;
+margin-left: 50px;
+}
+          
+.icon-img img {
+width: 25px;
+height: 25px;
+}
+          
+.container-footer h2 {
+font-size: 30px;
+width: 50%;
+display: inline;
+color:#ddacdd ;
+border-bottom: 2px solid 
+}
+          
+.derechos-footer {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.derechos-footer img {
+height: 40px;
+width: 40px;
+}
+
+/* RESPONSIVE*/
+
+@media (max-width: 992px){
+
+  
+  .hero-presentation{
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+
+  .hero-presentation h1 {
+    width: 100%;
+    max-width: 500px;
+    min-width: unset;
+    font-size: 90px;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .hero-presentation p{
+    
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 10%
+  }
+  .button-conteiner{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    margin-left: 15%;
+  }
+  .hero-img {
+    display: none ;
+  }
+
+  .line {
+    width: 100%;
+    height: 5px;
+    margin-left: 5%;
+    margin-bottom: 7px;
+  }
+#about {
+  text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 35%;
+}
+
+.benefits {
+  flex-direction: column;
+  text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.benefit-card img{
+  width: 100%;
+  height: 100%;
+}
+ .img-footer {
+   display: none;
+  
+ }
+
+ .container-footer{
+  margin-left: 50px;
+ }
+
+}
+
+@media (max-width: 576px) {
+  
+  .navbar ul {
+    background-color: #410a35;
+    width: 100%;
+    height:  calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(200%);
+    transition: all 0.4s  ease-in;
+  }
+
+  .navbar i {
+    display: block;
+ }
+
+ #toggle-menu:checked + .navbar-list{
+  transform: translateX(0%);
+ }
+ .hero-presentation p{
+  max-width: 100%;
+ }
+
+}
+          
+     
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
