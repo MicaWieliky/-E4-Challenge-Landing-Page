@@ -297,7 +297,7 @@ width: 40px;
 
 @media (max-width: 800px){
 
-
+  body { min-height: 100vh; }
   .hero-presentation h1 {
    text-align: center;
   
