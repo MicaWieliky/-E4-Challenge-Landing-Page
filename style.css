@@ -299,22 +299,19 @@ width: 40px;
 
 
   .hero-presentation h1 {
-   text-align: center;
-   flex-wrap: nowrap;
-   margin-left: 30%;
+   text-align: justify;
+  
    
   }
 
   .hero-presentation p{
     
-    text-align: center;
-    flex-wrap: nowrap;
-    margin-left: 30%;
+    text-align:justify;
+    
   }
   .button-conteiner{
     justify-content: center;
-    flex-wrap: nowrap;
-    margin-left: 30%;
+    
   }
   .hero-img {
     display: none ;
@@ -322,14 +319,12 @@ width: 40px;
 
   .line {
     justify-content: center;
-    flex-wrap: nowrap;
-    margin-left: 30%;
+  
   }
 
 #about {
   text-align: center;
-  flex-wrap: nowrap;
-  margin-left: 30%;
+
  
 }
 
@@ -338,8 +333,8 @@ width: 40px;
   text-align: center;
   width: 50%;
   justify-content: center;
-  flex-wrap: nowrap;
-  margin-left: 30%;
+  
+  
     
 }
 
