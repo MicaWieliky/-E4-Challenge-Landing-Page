@@ -301,7 +301,7 @@ width: 40px;
   .hero-presentation h1 {
    text-align: center;
    flex-wrap: nowrap;
-   
+   margin-left: 30%;
    
   }
 
@@ -309,12 +309,12 @@ width: 40px;
     
     text-align: center;
     flex-wrap: nowrap;
-   
+    margin-left: 30%;
   }
   .button-conteiner{
     justify-content: center;
     flex-wrap: nowrap;
-   
+    margin-left: 30%;
   }
   .hero-img {
     display: none ;
@@ -323,11 +323,13 @@ width: 40px;
   .line {
     justify-content: center;
     flex-wrap: nowrap;
+    margin-left: 30%;
   }
 
 #about {
   text-align: center;
   flex-wrap: nowrap;
+  margin-left: 30%;
  
 }
 
@@ -337,6 +339,7 @@ width: 40px;
   width: 50%;
   justify-content: center;
   flex-wrap: nowrap;
+  margin-left: 30%;
     
 }
 
@@ -350,7 +353,7 @@ width: 40px;
   flex-direction: column;
   width:200%;
   line-height: 100px;
-  
+
  }
 
 }
