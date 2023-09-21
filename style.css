@@ -297,12 +297,10 @@ width: 40px;
 
 @media (max-width: 800px){
 
-  .header {
-    height: 50px;
-    width: 50%;
-     }
+
   .hero-presentation h1 {
    text-align: center;
+   flex-wrap: nowrap;
    
    
   }
@@ -310,12 +308,12 @@ width: 40px;
   .hero-presentation p{
     
     text-align: center;
-   
+    flex-wrap: nowrap;
    
   }
   .button-conteiner{
     justify-content: center;
-  
+    flex-wrap: nowrap;
    
   }
   .hero-img {
@@ -324,12 +322,12 @@ width: 40px;
 
   .line {
     justify-content: center;
-    
+    flex-wrap: nowrap;
   }
 
 #about {
   text-align: center;
-  
+  flex-wrap: nowrap;
  
 }
 
@@ -338,7 +336,7 @@ width: 40px;
   text-align: center;
   width: 50%;
   justify-content: center;
- 
+  flex-wrap: nowrap;
     
 }
 
@@ -350,8 +348,9 @@ width: 40px;
 
  .container-footer{
   flex-direction: column;
-  width:50%;
-  line-height: 50px;
+  width:200%;
+  line-height: 100px;
+  
  }
 
 }
